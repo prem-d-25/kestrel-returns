@@ -1,0 +1,58 @@
+{
+  "train_rows": 8403,
+  "test_rows": 2101,
+  "train_from": "2025-04-01",
+  "train_to": "2026-04-01",
+  "test_from": "2026-04-02",
+  "test_to": "2026-06-30",
+  "real_returns_in_test": 242,
+  "baseline_accuracy": 0.8848167539267016,
+  "roc_auc": 0.7829433757596505,
+  "pr_auc": 0.4071595285001697,
+  "cutoffs": [
+    {
+      "cutoff": 0.5,
+      "flagged": 47,
+      "caught": 35,
+      "missed": 207,
+      "false_alarms": 12,
+      "correct_ok": 1847,
+      "accuracy": 0.8957639219419324,
+      "precision": 0.7446808510638298,
+      "recall": 0.1446280991735537
+    },
+    {
+      "cutoff": 0.3,
+      "flagged": 172,
+      "caught": 79,
+      "missed": 163,
+      "false_alarms": 93,
+      "correct_ok": 1766,
+      "accuracy": 0.8781532603522132,
+      "precision": 0.45930232558139533,
+      "recall": 0.32644628099173556
+    },
+    {
+      "cutoff": 0.2,
+      "flagged": 312,
+      "caught": 108,
+      "missed": 134,
+      "false_alarms": 204,
+      "correct_ok": 1655,
+      "accuracy": 0.8391242265587815,
+      "precision": 0.34615384615384615,
+      "recall": 0.4462809917355372
+    },
+    {
+      "cutoff": 0.15,
+      "flagged": 448,
+      "caught": 138,
+      "missed": 104,
+      "false_alarms": 310,
+      "correct_ok": 1549,
+      "accuracy": 0.8029509757258448,
+      "precision": 0.3080357142857143,
+      "recall": 0.5702479338842975
+    }
+  ]
+}

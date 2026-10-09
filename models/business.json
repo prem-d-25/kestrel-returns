@@ -1,0 +1,37 @@
+{
+  "test_orders": 2101,
+  "returns_in_test": 242,
+  "rows": [
+    {
+      "strategy": "Ship everything (do nothing)",
+      "total_cost": 278300.0,
+      "saving": 0.0,
+      "calls": 0,
+      "holds": 0,
+      "saving_per_700": 0.0
+    },
+    {
+      "strategy": "Ritu's plan: hold orders scoring 20%+",
+      "total_cost": 353534.49752000003,
+      "saving": -75234.49752000003,
+      "calls": 0,
+      "holds": 312,
+      "saving_per_700": -25066.229540218952
+    },
+    {
+      "strategy": "Our plan: call orders at about 11%+ risk",
+      "total_cost": 241855.0,
+      "saving": 36445.0,
+      "calls": 657,
+      "holds": 0,
+      "saving_per_700": 12142.551166111376
+    }
+  ],
+  "ritu_margin_check": {
+    "10%": -30165.248759999988,
+    "20%": -75234.49752000003,
+    "30%": -120303.74628000002
+  },
+  "call_breakeven_effect": 0.15676033934252387,
+  "call_effect_assumed": 0.35
+}
